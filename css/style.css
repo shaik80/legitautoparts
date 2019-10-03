@@ -1,18 +1,42 @@
 /* font-family: 'Lora', serif;
 font-family: 'Poppins', sans-serif; */
 @import url('https://fonts.googleapis.com/css?family=Lora|Poppins&display=swap');
-body{
+
+/* General */
+:root{
+    --primary-color:#CF2727;
+}
+body {
+    background-color: #C4C4C4;
     overflow-x: hidden;
 }
 
-.navbar{
-    background: #DA4453;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+/* header-top */
+.header-top{
+    padding: 0em 0em 0em 0em;
+}
+.header-top .header-btn {
+    margin: 0.5em 1em 0.5em 0.5em;
 }
 
-.navbar-light .navbar-brand{
+.text-color{
+    color: var(--primary-color)
+}
+.header-btn .text-color{
+    font-weight: 500;
+}
+
+/* Navbar */
+.bg-white .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    background-color: #CF2727 !important;
+    margin-top: 2px;
+}
+
+.bg-white .navbar-brand{
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
@@ -20,15 +44,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar-collapse .navbar-nav .nav-item .nav-link:hover{
-    color: white;
-    transform: scale(0.93);
-    transition: all .6s ease;
-}
-
-.navbar-collapse .navbar-nav .nav-item .nav-link{
-    color: white;
-}
 
 .carousel-banner .carousel-item{
     height: 90vmin;
