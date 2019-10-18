@@ -4,11 +4,8 @@ font-family: 'Poppins', sans-serif; */
 
 @import url('https://fonts.googleapis.com/css?family=Lora|Poppins&display=swap');
 *{
-    /* overflow-x: hidden !important; */
+   
 }
-/* .sticky-top{
-    overflow-x: visible !important;
-} */
 /* General */
 :root{
     --primary-color:#CF2727;
@@ -54,6 +51,7 @@ body{
 /* header */
 .header{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/background/automobile.jpg);
+    overflow-x: hidden !important;
 }
 
 .contact-us-section{
