@@ -85,12 +85,20 @@ body{
     }
   }
   @media only screen and (max-width: 670px) {
+    .main-contact-us-section .main-contact-us-info {
+        font-size: 1em !important;
+    }
+    .main-contact-us-section .main-contact-us-highlight {
+        font-weight: 900 !important;
+        font-size: 1em !important;
+    }
     .header-text .heading-name {
         font-size: 2em;
     }
     .header-text .heading-no{
         font-size: 1em;
     }
+
     .contact-us-section {
         height: 11em;
     }
