@@ -1,5 +1,9 @@
 /* font-family: 'Lora', serif;
 font-family: 'Poppins', sans-serif; */
+*{
+    overflow-x: hidden !important;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Lora|Poppins&display=swap');
 
 /* General */
@@ -9,7 +13,6 @@ font-family: 'Poppins', sans-serif; */
 }
 body{
     background-color: #C4C4C4;
-    overflow-x: hidden !important;
 }
 
 /*short info top */
