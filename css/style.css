@@ -1,11 +1,14 @@
 /* font-family: 'Lora', serif;
 font-family: 'Poppins', sans-serif; */
-*{
-    overflow-x: hidden !important;
-}
+
 
 @import url('https://fonts.googleapis.com/css?family=Lora|Poppins&display=swap');
-
+*{
+    overflow-x: hidden;
+}
+/* .sticky-top{
+    overflow-x: visible !important;
+} */
 /* General */
 :root{
     --primary-color:#CF2727;
